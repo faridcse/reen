@@ -23,7 +23,7 @@ a, a:hover{
 /*Header section code start*/
 
 .header-section{
-	widows: 100%;
+	width: 100%;
 }
 
 .top-header{
@@ -146,7 +146,7 @@ a, a:hover{
 	font-size: 18px;
 	font-weight: 400;
 	text-transform: uppercase;
-	padding: 15px 45px;
+	padding: 10px 35px;
 	border-radius: 3px;
 	border: 1px solid #00bc9c;
 	background: #00bc9c;
@@ -364,7 +364,10 @@ border-radius: 0px !important;
 	color: #a3b1bf;
 	padding-right: 80px;
 	border:0px;
-	outline: none;
+}
+
+.footer-widget .widget .form-newsletter .form-input .form-control:focus{
+	box-shadow: none;
 }
 
 .footer-widget .widget .form-newsletter .form-input .btn{
@@ -373,6 +376,7 @@ border-radius: 0px !important;
 	top: 3px;
 	right: 3px;
 	background: #00bc9c;
+	box-shadow: none;
 	text-transform: uppercase;
 	font-size: 13px;
 	font-weight: 600;
@@ -384,34 +388,41 @@ border-radius: 0px !important;
 /*footer-bottom section css start*/
 .footer-bottom{
 	width: 100%;
+	
+}
+
+.footer-bottom .footer-area{
+	width: 100%;
 	background: #283645;
 }
-.footer-bottom h2{
+
+.footer-bottom .footer-area .footer-left p{
 	font-size: 14px;
-	font-weight: 400;
+	font-weight: 600;
 	color: #707e8c;
-	margin-top: 20px;
-	margin-bottom: 20px;
+	margin-bottom: 0px;
+	display: inline-block;
+	padding: 21px;
 }
-.footer-bottom ul{
+.footer-bottom .footer-area .footer-right ul{
 	width: 100%;
 	display: block;
-	margin-top: 20px;
-	margin-bottom: 20px;
 	text-align: right;
+	margin: 0px;
+	padding: 17px 0px;
 }
-.footer-bottom ul li{
+.footer-bottom .footer-area .footer-right ul li{
 	display:inline-block;
 	color: #707e8c;
 } 
-.footer-bottom ul li a{
+.footer-bottom .footer-area .footer-right ul li a{
 	font-size: 14px;
 	font-weight: 600;
 	color: #707e8c;
 	margin-right: 5px;
 	margin-left: 5px;
 }
-.footer-bottom ul li a:hover{
+.footer-bottom .footer-area .footer-right ul li a:hover{
 	text-decoration: none;
 	color: #00bc9c;
 }
@@ -431,12 +442,12 @@ border-radius: 0px !important;
   background-color: #3c5065;
   color: #949ba2;
   cursor: pointer;
-  /*padding: 10px;*/
+
   border-radius: 4px;
 }
 
 #myBtn i{
-	padding: 15px;
+	padding: 12px;
 	font-size: 20px;
 	font-weight: 700;
 }
