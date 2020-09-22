@@ -442,11 +442,12 @@ border-radius: 0px !important;
   background-color: #3c5065;
   color: #949ba2;
   cursor: pointer;
-
   border-radius: 4px;
 }
 
 #myBtn i{
+	height: 50px;
+	width: 50px;
 	padding: 12px;
 	font-size: 20px;
 	font-weight: 700;
